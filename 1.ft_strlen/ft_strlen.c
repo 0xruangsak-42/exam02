@@ -11,7 +11,7 @@ int	ft_strlen(char *str)
     return(i);
 }
 
-int int main(int argc, const char** argv) {
-    print(ft_strlen('hello there'))
+int main(int argc, const char** argv) {
+    printf("%d",ft_strlen("hello there"));
     return 0;
 }
