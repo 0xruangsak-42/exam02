@@ -11,7 +11,7 @@ int main(int argc, const char** argv) {
     int b = 2;
     printf("%d",a);
     printf("%d",b);
-    ft_swap(a,b);
+    ft_swap(&a,&b);
     printf("%d",a);
     printf("%d",b);
     return 0;
