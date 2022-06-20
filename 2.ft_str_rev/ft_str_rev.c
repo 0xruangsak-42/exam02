@@ -9,20 +9,27 @@ int	ft_strlen(char *str){
     return(i);
 }
 
-char    *ft_strrev(char *str){
-    int i = 0;
-    int len = ft_strlen(str);
-    char *tmp;
-    while (len >= 0)
-    {
-        tmp[i] = str[len];
-        len -= 1;
-        i += 1;
-    }
-    return(str);
+
+char	*ft_strrev(char *str)
+{
+	int i;
+	int len;
+	char tmp;
+
+	i = 0;
+	len = ft_strlen(str) - 1;
+	while (len > i)
+	{
+		tmp = str[i];
+		str[i] = str[len];
+		str[len] = tmp;
+		i++;
+		len--;
+	}
+	return (str);
 }
 
 int main(int argc, const char** argv) {
-    printf(ft_strrev(argv[1]));
+    printf("%s",ft_strrev(argv[1]));
     return 0;
 }
