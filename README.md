@@ -6,3 +6,6 @@ exam02 7 exercices
 4-ft_atoi 14points -> 70/100
 5-ft_range 14points -> 84/100
 6-ft_itoa or 6-ft_split 16points -> 100/100
+
+#solution for 42
+https://github.com/48d31kh413k/1337-Piscine-42/tree/main/EXAM02
