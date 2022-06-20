@@ -11,13 +11,13 @@ int	ft_strlen(char *str)
     return(i);
 }
 
-char *ft_rev_print(char *str){
+void ft_rev_print(char *str){
     int i = ft_strlen(str);
     while (true)
     {
-        printf("%s",str[i]);
+        printf("%c",str[i]);
         i -= 1;
-        if (i == 0)
+        if (i == -1)
         {
             break;
         }
