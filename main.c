@@ -7,6 +7,6 @@ int main(int argc, const char** argv) {
     printf("\n");
     printf("%s",argv[1]);
     printf("\n");
-    printf("%s",argv[2]);
+    printf("%c",argv[1][0]);
     return 0;
 }
