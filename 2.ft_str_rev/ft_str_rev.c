@@ -12,21 +12,18 @@ int	ft_strlen(char *str){
 
 char	*ft_strrev(char *str)
 {
-	int i;
-	int len;
-	char tmp;
-
-	i = 0;
-	len = ft_strlen(str) - 1;
-	while (len > i)
+	int i = 0;
+	int len = ft_strlen(str) - 1;
+	char temp
+	while (i < len)
 	{
-		tmp = str[i];
+		temp = str[i];
 		str[i] = str[len];
-		str[len] = tmp;
-		i++;
-		len--;
+		str[len] = temp;
+		i += 1;
+		len -= 1;
 	}
-	return (str);
+	return (str)
 }
 
 int main(int argc, const char** argv) {
