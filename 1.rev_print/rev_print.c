@@ -24,7 +24,7 @@ void ft_rev_print(char *str){
     }
 }
 
-int main(int argc, const char** argv) {
+int main(int argc, char** argv) {
     ft_rev_print("hello");
     return 0;
 }

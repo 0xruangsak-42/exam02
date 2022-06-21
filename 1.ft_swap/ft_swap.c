@@ -6,7 +6,7 @@ void	ft_swap(int *a, int *b){
     *b = c;
 }
 
-int main(int argc, const char** argv) {
+int main(int argc, char** argv) {
     int a = 1;
     int b = 2;
     printf("%d",a);
