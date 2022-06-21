@@ -12,11 +12,12 @@ int	ft_strlen(char *str)
 
 void first_word (char *str){
     int len = ft_strlen(str);
-    while (str[len] != "\t" && str[len] != " ")
+    while ((str[len] != '\t') && (str[len] != ' '))
     {
         len -= 1;
     }
-    while (str[len] != "\0")
+    len += 1;
+    while (str[len] != '\0')
     {
         write(1,&str[len],1);
         len += 1;
